@@ -8,7 +8,9 @@ function Home() {
               FACTION
             </h1>
             <p className="text-xl text-slate-300 mb-8 max-w-2xl leading-relaxed">
-              Small groups. Big consequences.
+              Small groups. Big consequences. Faction is a podcast exploring the
+              rebels, schemers, and risk-takers who came together to shape
+              history - for better or worse.
             </p>
             <div className="w-24 h-1 bg-red-600 mb-8"></div>
           </div>
