@@ -4,15 +4,15 @@ function Home() {
       <div className="container mx-auto px-6 py-16">
         <header className="flex items-center justify-between mb-16">
           <div className="flex-1">
-            <h1 className="text-6xl font-bold text-white mb-4 tracking-tight">
-              FACTION
+            <h1 className="text-5xl uppercase font-bold text-white mb-4 tracking-tight">
+              Faction podcast
             </h1>
+            <div className="w-24 my-4 bg-red-600"></div>
             <p className="text-xl text-slate-300 mb-8 max-w-2xl leading-relaxed">
               Small groups. Big consequences. Faction is a podcast exploring the
               rebels, schemers, and risk-takers who came together to shape
               history - for better or worse.
             </p>
-            <div className="w-24 h-1 bg-red-600 mb-8"></div>
           </div>
           <div className="flex-1 flex justify-end">
             <img
