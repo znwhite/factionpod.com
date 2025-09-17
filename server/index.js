@@ -10,6 +10,8 @@ const whitelist = [
   "http://localhost:3001",
   "http://localhost:5000",
   "http://localhost:5173",
+  "https://factionpod.com",
+  "https://www.factionpod.com",
 ];
 
 const corsOptions = {
@@ -37,8 +39,13 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "../client/dist/index.html"));
 });
 
+// Catch-all for unmatched routes (should come after static files)
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, "../client/dist/index.html"));
+});
+
 app.use((err, req, res, next) => {
-  console.error(err.stack);
+  console.error('Server error:', err.stack);
   res.status(500).send("Something broke!");
 });
 
