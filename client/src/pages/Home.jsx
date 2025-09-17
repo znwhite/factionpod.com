@@ -1,7 +1,7 @@
 function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-black via-slate-950 to-black">
-      <div className="container mx-auto px-6 py-16">
+      <div className="container mx-auto px-6 py-16 max-w-6xl">
         <header className="flex flex-col lg:flex-row lg:items-center lg:justify-between mb-16 gap-8">
           <div className="lg:flex-1">
             <h1 className="text-5xl uppercase font-bold text-[#6d0000] mb-4 tracking-tight">
