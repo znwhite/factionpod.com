@@ -2,8 +2,8 @@ function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-black via-slate-950 to-black">
       <div className="container mx-auto px-6 py-16">
-        <header className="flex items-center justify-between mb-16">
-          <div className="flex-1">
+        <header className="flex flex-col lg:flex-row lg:items-center lg:justify-between mb-16 gap-8">
+          <div className="lg:flex-1">
             <h1 className="text-5xl uppercase font-bold text-[#6d0000] mb-4 tracking-tight">
               Faction podcast
             </h1>
@@ -13,7 +13,7 @@ function Home() {
               history - for better or worse.
             </p>
           </div>
-          <div className="flex-1 flex justify-end">
+          <div className="lg:flex-1 flex justify-center lg:justify-end">
             <img
               src="/images/faction.png"
               alt="Faction"
