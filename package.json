@@ -1,0 +1,29 @@
+{
+  "name": "factionpod.com",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/znwhite/factionpod.com#readme",
+  "bugs": {
+    "url": "https://github.com/znwhite/factionpod.com/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/znwhite/factionpod.com.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"cd client && npm install && npm run build && npm run dev\" \"node server/index.js\"",
+    "start": "npm run build && node server/index.js",
+    "build": "cd client && npm install --include=dev && npm run build && cd .. && npm install"
+  },
+  "dependencies": {
+    "concurrently": "^9.2.1",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "react-helmet-async": "^2.0.5",
+    "vite": "^7.1.5"
+  }
+}
