@@ -4,7 +4,7 @@ function Home() {
       <div className="container mx-auto px-6 py-16">
         <header className="flex items-center justify-between mb-16">
           <div className="flex-1">
-            <h1 className="text-5xl uppercase font-bold text-red-800 mb-4 tracking-tight">
+            <h1 className="text-5xl uppercase font-bold text-[#6d0000] mb-4 tracking-tight">
               Faction podcast
             </h1>
             <p className="text-xl text-slate-300 mb-8 max-w-2xl leading-relaxed">
