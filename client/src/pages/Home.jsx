@@ -1,6 +1,6 @@
 function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
+    <div className="min-h-screen bg-gradient-to-br from-black via-slate-950 to-black">
       <div className="container mx-auto px-6 py-16">
         <header className="flex items-center justify-between mb-16">
           <div className="flex-1">
@@ -49,14 +49,14 @@ function Home() {
           </section>
 
           <section className="grid md:grid-cols-3 gap-8 mb-16">
-            <div className="bg-slate-800/50 backdrop-blur rounded-lg p-6 border border-slate-700">
+            <div className="bg-black/70 backdrop-blur rounded-lg p-6 border border-slate-800">
               <h3 className="text-xl font-semibold text-white mb-3">Rebels</h3>
               <p className="text-slate-300">
                 Stories of those who challenged the status quo and fought
                 against overwhelming odds.
               </p>
             </div>
-            <div className="bg-slate-800/50 backdrop-blur rounded-lg p-6 border border-slate-700">
+            <div className="bg-black/70 backdrop-blur rounded-lg p-6 border border-slate-800">
               <h3 className="text-xl font-semibold text-white mb-3">
                 Schemers
               </h3>
@@ -65,7 +65,7 @@ function Home() {
                 political machinations.
               </p>
             </div>
-            <div className="bg-slate-800/50 backdrop-blur rounded-lg p-6 border border-slate-700">
+            <div className="bg-black/70 backdrop-blur rounded-lg p-6 border border-slate-800">
               <h3 className="text-xl font-semibold text-white mb-3">
                 Risk-Takers
               </h3>
@@ -77,7 +77,7 @@ function Home() {
           </section>
 
           <section className="text-center">
-            <div className="bg-slate-800/30 backdrop-blur rounded-lg p-8 border border-slate-700">
+            <div className="bg-black/50 backdrop-blur rounded-lg p-8 border border-slate-800">
               <h2 className="text-2xl font-semibold text-white mb-4">
                 New Episodes Monthly
               </h2>
@@ -85,7 +85,7 @@ function Home() {
                 Subscribe to never miss an episode as we uncover the untold
                 stories of history's most influential factions.
               </p>
-              <div className="flex justify-center space-x-4">
+              <div className="flex justify-center space-x-4 flex-wrap gap-y-4">
                 <a
                   href="https://open.spotify.com/show/72qiPaoDRf8HkGKEChvG5q?si=8e4f2078fcbe4512"
                   target="_blank"
@@ -93,6 +93,14 @@ function Home() {
                   className="bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-lg font-medium transition-colors"
                 >
                   Subscribe on Spotify
+                </a>
+                <a
+                  href="https://patreon.com/factionpod"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-lg font-medium transition-colors"
+                >
+                  Support on Patreon
                 </a>
                 <button className="border border-slate-600 hover:border-slate-500 text-slate-300 hover:text-white px-6 py-3 rounded-lg font-medium transition-colors">
                   More Platforms
