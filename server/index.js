@@ -40,7 +40,7 @@ app.get("/", (req, res) => {
 });
 
 // Catch-all for unmatched routes (should come after static files)
-app.get('*', (req, res) => {
+app.all('/*', (req, res) => {
   res.sendFile(path.join(__dirname, "../client/dist/index.html"));
 });
 
