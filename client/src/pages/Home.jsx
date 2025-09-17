@@ -4,10 +4,9 @@ function Home() {
       <div className="container mx-auto px-6 py-16">
         <header className="flex items-center justify-between mb-16">
           <div className="flex-1">
-            <h1 className="text-5xl uppercase font-bold text-white mb-4 tracking-tight">
+            <h1 className="text-5xl uppercase font-bold text-red-800 mb-4 tracking-tight">
               Faction podcast
             </h1>
-            <div className="w-24 my-4 bg-red-600"></div>
             <p className="text-xl text-slate-300 mb-8 max-w-2xl leading-relaxed">
               Small groups. Big consequences. Faction is a podcast exploring the
               rebels, schemers, and risk-takers who came together to shape
@@ -92,21 +91,18 @@ function Home() {
                   href="https://open.spotify.com/show/72qiPaoDRf8HkGKEChvG5q?si=8e4f2078fcbe4512"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-lg font-medium transition-colors"
+                  className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-medium transition-colors"
                 >
-                  Subscribe on Spotify
+                  Listen on Spotify
                 </a>
                 <a
                   href="https://patreon.com/factionpod"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-lg font-medium transition-colors"
+                  className="bg-orange-600 hover:bg-orange-700 text-white px-6 py-3 rounded-lg font-medium transition-colors"
                 >
                   Support on Patreon
                 </a>
-                <button className="border border-slate-600 hover:border-slate-500 text-slate-300 hover:text-white px-6 py-3 rounded-lg font-medium transition-colors">
-                  More Platforms
-                </button>
               </div>
             </div>
           </section>
