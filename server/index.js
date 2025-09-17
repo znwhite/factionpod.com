@@ -33,7 +33,7 @@ app.use(express.static(clientPath));
 const helloRoute = require("./routes/hello");
 app.use("/api/hello", helloRoute);
 
-app.get("*", (req, res) => {
+app.get("/*splat", (req, res) => {
   res.sendFile(path.join(__dirname, "../client/dist/index.html"));
 });
 
